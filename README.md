@@ -40,18 +40,13 @@
 ## プロジェクト構造
 
 ```
-Q-Quest_量子神託/
-├── README.md                 # このファイル
-├── Q_QUEST_量子神託.ipynb    # メインのJupyter Notebook
-├── requirements.txt          # 依存パッケージ
-├── setup_notebook.py         # Notebookコピー用スクリプト（オプション）
-├── QUICK_START.md            # クイックスタートガイド
-├── CONTRIBUTING.md           # 貢献ガイドライン
-└── docs/                     # ドキュメント
-    ├── PROJECT_VISION.md     # プロジェクトビジョン
-    ├── CULTURAL_ELEMENTS.md  # 文化的要素の説明
-    ├── DEVELOPMENT_ROADMAP.md # 開発ロードマップ
-    └── README_EN.md          # 英語版README
+Q-Quest-Quantum-Oracle/
+├─ app.py
+├─ requirements.txt
+├─ README.md
+└─ .streamlit/
+    └─ config.toml
+
 ```
 
 ## クイックスタート
