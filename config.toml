@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#7F7CFF"        # 紫系（量子感）
+backgroundColor = "#0E1117"     # 黒背景
+secondaryBackgroundColor = "#1B1F2A"
+textColor = "#FAFAFA"
+font = "sans serif"
