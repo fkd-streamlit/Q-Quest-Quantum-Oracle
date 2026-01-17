@@ -23,6 +23,27 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# ===== ここに CSS（作品感）を書く =====
+st.markdown("""
+<style>
+.block-container {
+    padding-top: 2rem;
+}
+
+.stButton > button {
+    border-radius: 12px;
+    background: linear-gradient(90deg, #7F7CFF, #A084FF);
+    color: white;
+    font-weight: 600;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 # 日本語フォント設定（Streamlit用）
 import matplotlib
 matplotlib.use('Agg')  # Streamlitでのバックエンド設定
